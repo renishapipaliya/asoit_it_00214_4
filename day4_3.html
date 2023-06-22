@@ -1,0 +1,245 @@
+<html>
+    <head>
+        <title>Demo CSS3</title>
+        <style type="text/css">
+            div
+            {
+                height:50%;
+                width:50%;
+                transition:3s;
+                font-size:25px;
+                font-weight:bold;
+                color:#000000;
+                background-color:rgb(167, 25, 25)
+            }
+
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(100px,100px);
+                   -moz-transform:translate(100px,100px);
+                    -ms-transform:translate(100px,100px);
+                     -o-transform:translate(100px,100px);
+                        transform:translate(100px,100px);
+                      background-color:rgb(104, 60, 60);
+                      color:rgb(82, 82, 22); 
+            }
+
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(104, 60, 60);
+                      color:Yellow; 
+
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:rgb(104, 60, 60);
+                      color:Yellow; 
+
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(45deg);
+                   -moz-transform:skew(45deg);
+                    -ms-transform:skew(45deg);
+                     -o-transform:skew(45deg);
+                        transform:skew(45deg);
+                      background-color:rgb(104, 60, 60);
+                      color:Yellow; 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.5,0.5);
+                   -moz-transform:scale(1.5,0.5);
+                    -ms-transform:scale(1.5,0.5);
+                     -o-transform:scale(1.5,0.5);
+                        transform:scale(1.5,0.5);
+                      background-color:rgb(104, 60, 60);
+                      color:Yellow; 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:0;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(128,128,0,0.5);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:0px 0px 30px Blue;
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:3px 3px 3px yellow;
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:50%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body>
+        <div id="TranslateDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="RotateDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+		<div id="RotateDiv3D"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="SkewDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="ScaleDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="OpacityDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="RGBADiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="BoxShadowDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+        <div id="TextShadowDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+		<div id="BorderRadiusDiv"><html>
+            <head>
+                <title>Font Awesome</title>
+        
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+                <style type="text/css">
+                    #I{font-size:50px;color:rgb(8, 3, 3);}
+                </style>
+            </head>
+            <body>
+                <span class="fa fa-list-ul" id="I"></span><hr/>
+                <i class="fa fa-area-chart" style="font-size:25px;color:rgb(32, 3, 3);"></i><hr/>
+                <i class="fa fa-arrow-circle-up" style="font-size:25px;color:rgb(19, 11, 11);"></i><hr/>
+            </body>
+        </html></div><hr />
+		<div id="OverFlowDiv">silveroak silveroak silveroak silveroak silveroak silveroak silveroak silveroak silveroak silveraok silveroak 
+        </div><hr />
+    </body>
+</html>
